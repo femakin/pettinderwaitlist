@@ -58,6 +58,7 @@ export function PetShowcase() {
                    alt={pet.alt}
                    fill
                    className="object-contain drop-shadow-xl"
+                   sizes="(max-width: 768px) 192px, 288px"
                  />
               </div>
             </motion.div>

@@ -75,13 +75,14 @@ export function Hero() {
               fill
               className="object-contain drop-shadow-2xl"
               priority
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
             />
             
             {/* Floating Elements - Glassmorphism Cards */}
             <motion.div 
               animate={{ y: [0, -15, 0] }}
               transition={{ repeat: Infinity, duration: 5, ease: "easeInOut" }}
-              className="absolute top-10 -left-4 md:left-0 bg-white/90 backdrop-blur-md p-4 rounded-2xl shadow-lg border border-white/20 max-w-[180px] z-20 hidden sm:block"
+              className="absolute top-50 -left-4 md:left-0 bg-white/90 backdrop-blur-md p-4 rounded-2xl shadow-lg border border-white/20 max-w-[180px] z-20 hidden sm:block"
             >
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">

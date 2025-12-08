@@ -45,6 +45,8 @@ export function AppShowcase() {
                  alt="Petinder Home Screen 1"
                  fill
                  className="object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500"
+                 loading="eager"
+                 sizes="(max-width: 768px) 240px, 280px"
                />
              </motion.div>
              
@@ -60,6 +62,9 @@ export function AppShowcase() {
                  alt="Petinder Main Screen"
                  fill
                  className="object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500"
+                 priority
+                 loading="eager"
+                 sizes="(max-width: 768px) 260px, 320px"
                />
              </motion.div>
 
@@ -75,6 +80,8 @@ export function AppShowcase() {
                  alt="Petinder Home Screen 2"
                  fill
                  className="object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500"
+                 loading="eager"
+                 sizes="(max-width: 768px) 240px, 280px"
                />
              </motion.div>
           </div>
